@@ -85,3 +85,4 @@ sample = (1, 2, 3, 42, 4, 2)
 print(sample.count(2)) 
 print(sample.index(3)) 
 
+# 마음의 다짐을 함
