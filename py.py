@@ -1,22 +1,22 @@
 
 user = {
-“name” : “홍길동”,
-“age” : 25,
-“skills” : [“Python”, “Git”]
+"name": "홍길동",
+"age" : 25,
+"skills" : ["Python", "Git"]
 }
 
-대괄호 사용 (가장 일반적)
-print(user[“name”]) # 출력 : 홍길동
+# 대괄호 사용 (가장 일반적)
+print(user["name"]) # 출력 : 홍길동
 
-print(user[“name”], “은 나이가 ”, user[“age”], “먹었습니다.”)
+print(user["name"], "은 나이가 ", user["age"], "먹었습니다.")
 
 
-mart = (
-“apple” : 100
-“banan” : 2500
-“orange” : 1500
-)
-mart[“apple”] = 5000
+mart = {
+"apple" : 100,
+"banana" : 2500,
+"orange" : 1500
+}
+mart["apple"] = 5000
 
 
 print(mart.keys())
