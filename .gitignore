@@ -1,0 +1,4 @@
+**/*.xls
+**/*.hwp
+origin/data.py # data.py 파일 무시
+**/data/ # data 폴더 전체 무시

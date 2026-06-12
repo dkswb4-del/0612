@@ -77,12 +77,30 @@ y = 20
 # 두 값을 서로 바꾸기 (튜플 언패킹 원리)
 x, y = y, x
 
-print(x) # 20
-print(y) # 10
+# print(x) # 20
+# print(y) # 10
 
 
-sample = (1, 2, 3, 42, 4, 2)
-print(sample.count(2)) 
-print(sample.index(3)) 
+# sample = (1, 2, 3, 42, 4, 2)
+# print(sample.count(2)) 
+# print(sample.index(3)) 
 
 # 마음의 다짐을 함
+
+# fruits = ["사과", "바나나", "수박"]
+# for fruit in fruits:
+#     print(fruit)
+
+# for i in range(5):
+#     print(f"{i}번째 반복 중입니다.") 
+
+# total = 0
+# for num in range(1, 11): # 1부터 10까지의 숫자
+#     total = total + num # 기존 total에 num을 더해서 total에 다시 저장
+# print(f"1부터 10까지의 합은 {total}")
+
+
+for num in range(1, 11):
+    if num % 2 !=0: # num이 홀수인 경우
+        print(num)
+
